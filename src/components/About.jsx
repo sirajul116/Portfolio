@@ -1,5 +1,6 @@
 import React from 'react';
 import Quote from './Quote';
+import Hridoy from '../assets/Hridoy.jpeg';
 
 function About() {
   return (
@@ -21,7 +22,8 @@ function About() {
         </div>
         <div>
           <img
-            src="./src/assets/Hridoy.jpeg"
+            src={Hridoy}
+            alt="hridoy"
             className="border rounded-full h-80 ml-14"
           />
         </div>
